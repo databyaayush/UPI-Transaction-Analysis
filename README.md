@@ -44,7 +44,7 @@ The full list of 10 questions is in [`business_problem_questions.txt`](bussiness
 
 | Property | Value |
 |---|---|
-| File | [`data/transaction_dataset.csv`](data/transaction_dataset.csv) |
+| File | [`data/transaction_dataset.csv`](transaction%20dataset.csv) |
 | Rows | 1,000 transactions |
 | Period | 4 Jun 2024 to 3 Jul 2024 (30 days) |
 | Status split | 502 SUCCESS · 498 FAILED |
@@ -78,7 +78,7 @@ flowchart LR
     E -.- E1["Findings<br/>Recommendations<br/>Project summary"]
 ```
 
-The editable diagram is in [`docs/Analysis_Flow_Diagram.drawio`](docs/Analysis_Flow_Diagram.drawio).
+The editable diagram is in [`Analysis_Flow_Diagram.drawio`](Analysis%20Flow%20Diagram.drawio).
 
 ## 5. Repository Structure
 
@@ -104,7 +104,7 @@ upi-transaction-analysis/
 ```
 
 ## 6. SQL Analysis
-**Files:** [`sql/database_creation.sql`](sql/database_creation.sql) and [`sql/business_problem_solution_using_sql.sql`](sql/business_problem_solution_using_sql.sql) (MySQL)
+**Files:** [`sql/database_creation.sql`](database_creation.sql) and [`sql/business_problem_solution_using_sql.sql`](bussiness_problem_solution_using_sql.sql) (MySQL)
 
 I created the `upi` database and a `transactions` table, loaded the CSV, and wrote one query (or more) for each of the 10 business questions.
 
@@ -133,7 +133,7 @@ ORDER BY failure_rate_pct DESC;
 ```
 
 ## 7. Python Analysis
-**File:** [`python/upi_python_analysis.ipynb`](python/upi_python_analysis.ipynb)
+**File:** [`upi_python_analysis.ipynb`](upi_python_analysis.ipynb)
 
 The notebook walks through the analysis step by step:
 
@@ -145,24 +145,24 @@ The notebook walks through the analysis step by step:
 The Python results were cross-checked against the SQL results to confirm the analysis is consistent.
 
 ## 8. Power BI Dashboard
-**File:** [`powerbi/UPI_Dashboard.pbix`](powerbi/UPI_Dashboard.pbix)
+**File:** [`UPI_Dashboard.pbix`](Dashboard.pbix)
 
 The dashboard has 3 pages, and all slicers and visuals are interactive.
 
 ### Page 1: Dashboard (overview)
 KPI cards for total transactions, failure rate, success amount and average ticket size, plus the daily transaction trend and transactions by day of the week.
 
-![Dashboard overview](images/dashboard_overview.png)
+![Dashboard overview](dashboard_img.PNG)
 
 ### Page 2: Failure Analysis
 Total failed amount, failed amount by sender bank, failure rate by hour compared with the overall average, and failure rate by amount bucket.
 
-![Failure analysis](images/failure_analysis.png)
+![Failure analysis](Failure_Analysis_dasboard_img.PNG)
 
 ### Page 3: Bank Flow
 A sender-bank × receiver-bank heatmap (matrix with a colour scale) and a detail table with transactions, success amount and failure rate for each route.
 
-![Bank flow](images/bank_flow.png)
+![Bank flow](Bank_Flow_dashboard_img.PNG)
 
 ### Key DAX measures
 
