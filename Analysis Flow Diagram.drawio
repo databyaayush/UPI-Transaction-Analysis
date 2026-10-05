@@ -1,0 +1,88 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="oAsiZFljb3qSgwverK5k">
+    <mxGraphModel dx="850" dy="474" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="VlLtFzLfA2ObCUPOdB1L-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fontFamily=Comic Sans MS;fontStyle=1;fontSize=17;" value="Dataset" vertex="1">
+          <mxGeometry height="60" width="170" x="40" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="VlLtFzLfA2ObCUPOdB1L-4" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="220" y="80" as="sourcePoint" />
+            <mxPoint x="320" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VlLtFzLfA2ObCUPOdB1L-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fontStyle=1;fontSize=16;fontFamily=Comic Sans MS;" value="SQL" vertex="1">
+          <mxGeometry height="60" width="170" x="329" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="VlLtFzLfA2ObCUPOdB1L-7" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="510" y="79.5" as="sourcePoint" />
+            <mxPoint x="610" y="79.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VlLtFzLfA2ObCUPOdB1L-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fontFamily=Comic Sans MS;fontStyle=1;fontSize=17;" value="Python" vertex="1">
+          <mxGeometry height="60" width="170" x="618" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="VlLtFzLfA2ObCUPOdB1L-9" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="702.5" y="130" as="sourcePoint" />
+            <mxPoint x="702.5" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VlLtFzLfA2ObCUPOdB1L-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fontFamily=Comic Sans MS;fontStyle=1;fontSize=17;" value="Dashboard" vertex="1">
+          <mxGeometry height="60" width="170" x="618" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="VlLtFzLfA2ObCUPOdB1L-11" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="702.5" y="300" as="sourcePoint" />
+            <mxPoint x="702.5" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VlLtFzLfA2ObCUPOdB1L-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fontFamily=Comic Sans MS;fontStyle=1;fontSize=17;" value="Documentation" vertex="1">
+          <mxGeometry height="60" width="170" x="618" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="VlLtFzLfA2ObCUPOdB1L-13" edge="1" parent="1" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="340" y="170" as="sourcePoint" />
+            <mxPoint x="400" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VlLtFzLfA2ObCUPOdB1L-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="1. Data Cleaning&lt;div&gt;&amp;nbsp;2. Exploratory Analysis&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="130" x="270" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="VlLtFzLfA2ObCUPOdB1L-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="1. Data Processing&amp;nbsp;&lt;div&gt;2. Visualization &amp;amp; Insights&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="148" x="460" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="VlLtFzLfA2ObCUPOdB1L-17" edge="1" parent="1" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="610" y="160" as="sourcePoint" />
+            <mxPoint x="660" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VlLtFzLfA2ObCUPOdB1L-18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="1. KPI Creation&amp;nbsp;&lt;div&gt;2. Interactive Reports&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="130" x="440" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="VlLtFzLfA2ObCUPOdB1L-19" edge="1" parent="1" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="590" y="340" as="sourcePoint" />
+            <mxPoint x="640" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1ymFrv5HQWyn8Utxoq26-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="1. Findings&amp;nbsp;&lt;div&gt;2. Recommendations&amp;nbsp;&lt;/div&gt;&lt;div&gt;3. Project Summary&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="170" x="350" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="1ymFrv5HQWyn8Utxoq26-2" edge="1" parent="1" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="579" y="439.5" />
+            </Array>
+            <mxPoint x="529" y="439.5" as="sourcePoint" />
+            <mxPoint x="609" y="439.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,24 @@
+Bussiness question that we need to solve using sql
+
+1. How reliable is our payment system? What share of all transactions fail, and how much money is stuck in failed payments?
+2. Which bank causes the most failures? Do some sender banks (SBI, ICICI, YBL, Axis, HDFC) fail more often than others?
+3. When do people pay the most? Which hours of the day and which days of the week see the highest transaction volume?
+4. When do payments fail the most? Are failures higher at certain hours, such as late night or peak time?
+5. Does the amount affect failure? Do high-value payments (above ₹7,500, say) fail more often than small ones?
+6. How much money actually moved? What is the total successful amount, the average ticket size and the largest single payment?
+7. Which banks do money flow between? Which sender bank to receiver bank pair has the most transactions and the highest value?
+8. Who are the repeat users? Which senders transact more than once, and how much have they sent in total?
+9. Is business growing or flat? How do daily transactions and amounts trend across the month, and which day had the biggest spike or drop?
+10. Are there any suspicious patterns? Are there duplicate transaction IDs, self-payments or unusually large amounts that need a closer look?
+
+Bussiness question to solve using python 
+1. How reliable is our payment system? What share of transactions fail, and how much money is stuck in failed payments?
+2. Which sender bank causes the most failures? Failure rate for each bank (SBI, ICICI, YBL, Axis, HDFC).
+3. When do people pay the most? Transaction volume by hour of the day and by day of the week.
+4. When do payments fail the most? Failure rate by hour of the day.
+5. Does the amount affect failure? Failure rate across amount buckets (0-2,500, 2,500-5,000, 5,000-7,500, 7,500+).
+6. How much money actually moved? Total, average, smallest and largest successful payment.
+7. Which banks do money flow between? Transaction count, amount and success rate for each sender-bank to receiver-bank route.
+8. Who are the repeat users? Senders who appear more than once, with their transaction count and total sent.
+9. Is business growing or flat? Daily transaction trend and day-over-day change.
+10. Are there suspicious patterns? Duplicate IDs, self-payments and unusually large amounts.
