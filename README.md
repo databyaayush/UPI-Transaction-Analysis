@@ -38,7 +38,7 @@ Almost half of the transactions in this dataset fail. The business needs to unde
 5. How does money flow between banks, and are there weak routes?
 6. Is the business growing, and is anything suspicious in the data?
 
-The full list of 10 questions is in [`business_problem_questions.txt`](business%20problem%20questions.txt).
+The full list of 10 questions is in [`business_problem_questions.txt`](bussiness%20problem%20questions.txt).
 
 ## 3. Dataset
 
